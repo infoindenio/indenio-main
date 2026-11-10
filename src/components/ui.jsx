@@ -49,12 +49,16 @@ export function Faq({ items = defaultFaqs }) {
   return (
     <div className="faq">
       {items.map((f, i) => (
-        <div key={f.q} className={`faq-item reveal${open === i ? " open" : ""}`} style={{ "--d": `${i * 0.05}s` }}>
-          <button className="faq-q" onClick={() => setOpen(open === i ? -1 : i)} aria-expanded={open === i}>
-            {f.q}
-            <i className="bi bi-plus-lg" />
-          </button>
-          <div className="faq-a"><div><p>{f.a}</p></div></div>
+        // The reveal animation sits on a wrapper whose class never changes,
+        // so opening an answer can't remove the "in" (visible) class.
+        <div key={f.q} className="reveal" style={{ "--d": `${i * 0.05}s` }}>
+          <div className={`faq-item${open === i ? " open" : ""}`}>
+            <button className="faq-q" onClick={() => setOpen(open === i ? -1 : i)} aria-expanded={open === i}>
+              {f.q}
+              <i className="bi bi-plus-lg" />
+            </button>
+            <div className="faq-a"><div><p>{f.a}</p></div></div>
+          </div>
         </div>
       ))}
     </div>
