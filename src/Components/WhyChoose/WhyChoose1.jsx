@@ -50,7 +50,7 @@ const WhyChoose1 = () => {
                             
                             <div class="agenko-image-box text-xl-end mb-50 pf_fadeup">
                                 <div class="agenko-image">
-                                    <img src="/assets/images/pages/service/service-1.png" alt="Service Image" />
+                                    <img src="/assets/svg/why.svg" alt="Service Image" />
                                 </div>
                             </div>
                         </div>

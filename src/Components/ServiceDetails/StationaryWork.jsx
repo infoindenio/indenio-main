@@ -9,7 +9,7 @@ const Stationary = () => {
                         <div className="col-lg-12">
                             <div className="agenko-iamge-box mb-70 pf_zoomIn">
                                 <div className="agenko-image">
-                                    <img src="/assets/images/pages/service/stationary.jpeg" alt="Indenio Stationary Work Marketing" />
+                                    <img src="/assets/svg/banner-stationary.svg" alt="Indenio Stationary Work Marketing" />
                                 </div>
                             </div>
                         </div>
@@ -25,16 +25,16 @@ const Stationary = () => {
                                     <div className="col-md-6">
                                         <div className="agenko-counter-item">
                                             <div className="content">
-                                                <h2><span className="count">1500</span>+</h2>
-                                                <p>Designs Delivered</p>
+                                                <h2><span className="count">240</span>+</h2>
+                                                <p>Projects Delivered</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-md-6">
                                         <div className="agenko-counter-item">
                                             <div className="content">
-                                                <h2><span className="count">98</span>%</h2>
-                                                <p>Brand Consistency</p>
+                                                <h2><span className="count">10</span>+</h2>
+                                                <p>Years of Experience</p>
                                             </div>
                                         </div>
                                     </div>

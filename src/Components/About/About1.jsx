@@ -14,8 +14,8 @@ const About1 = () => {
                             <h2>Innovative digital growth  
                             driven by Indenio Agency!</h2>
                         </div>
-                        <p>At Indenio, we focus on creating powerful digital solutions designed to accelerate business success. By blending creativity, technology, and strategy, we enable brands to stand out and achieve their long-term vision with confidence.</p>
-                        <p>Our professional team partners with clients to understand their needs in depth, delivering tailored strategies that generate measurable growth and lasting impact.</p>
+                        <p>Indenio builds custom websites, online stores and apps, gets them ranking on Google and runs marketing that brings in real enquiries. From gym chains in Norway to solar companies in Australia and e-commerce brands in the UK, we help businesses grow online.</p>
+                        <p>You work directly with the people designing, coding and marketing your project, with fast replies on WhatsApp and clear progress at every step.</p>
                         <div className="agk-button mb-30">
                             <Link to="/about" className="theme-btn style-one">
                                 <span className="text-flip">
@@ -29,15 +29,15 @@ const About1 = () => {
                                 <div className="agenko-counter-box style-one">
                                     <div className="content">
                                         <h2 className="mb-10"><span className="count">240</span>+</h2>
-                                        <p>Projects success rate 99%</p>
+                                        <p>Projects delivered</p>
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <div className="agenko-counter-box style-one">
                                     <div className="content">
-                                        <h2 className="mb-10"><span className="count">23</span>+</h2>
-                                        <p>Award for digital innovation</p>
+                                        <h2 className="mb-10"><span className="count">5</span></h2>
+                                        <p>Countries served</p>
                                     </div>
                                 </div>
                             </li>
@@ -48,11 +48,11 @@ const About1 = () => {
                     
                     <div className="agk-image-box style-one mb-50 pf_fadeup">
                         <div className="agk-image">
-                            <img src="/assets/images/digital-agency/about/about1.jpeg" alt="img" />
+                            <img src="/assets/svg/about.svg" alt="img" />
                         </div>
                         <div className="agenko-experince-box style-one">
-                            <h2><span>24</span>+</h2>
-                            <p>Years of Digital Expertise</p>
+                            <h2><span>10</span>+</h2>
+                            <p>Years of Experience</p>
                         </div>
                     </div>
                 </div>

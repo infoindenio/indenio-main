@@ -23,7 +23,7 @@ const Brand2 = () => {
                             
                             <div className="section-title text-center mb-50 pf_zoomIn">
                                 <span className="sub-title">Our Client</span>
-                                <h2>Our Global Client</h2>
+                                <h2>Brands We Have Worked With</h2>
                             </div>
                         </div>
                     </div>

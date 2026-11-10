@@ -1,0 +1,82 @@
+/* Client Results section (Indenio) */
+.indenio-results-intro {
+  color: #a2a8b3;
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 0;
+}
+.indenio-result-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 28px;
+  border-radius: 20px;
+  background: #16181b;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+.indenio-result-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(0, 255, 188, 0.5);
+}
+.indenio-result-top {
+  margin-bottom: 14px;
+}
+.indenio-result-country {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #00ffbc;
+  margin-bottom: 8px;
+}
+.indenio-result-card h4 {
+  color: #fff;
+  font-size: 22px;
+  margin: 0;
+}
+.indenio-result-card p {
+  color: #a2a8b3;
+  font-size: 15px;
+  line-height: 1.65;
+  margin-bottom: 18px;
+}
+.indenio-result-quote {
+  border-left: 3px solid #00ffbc;
+  padding-left: 14px;
+  color: #e8ebf0;
+  font-style: italic;
+  margin-bottom: 18px;
+}
+.indenio-result-quote span {
+  display: block;
+  margin-top: 6px;
+  font-style: normal;
+  font-size: 13px;
+  color: #00ffbc;
+}
+.indenio-result-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 22px;
+}
+.indenio-result-tags span {
+  font-size: 12.5px;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(0, 255, 188, 0.1);
+  color: #5cffd0;
+}
+.indenio-result-link {
+  margin-top: auto;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+}
+.indenio-result-link:hover {
+  color: #00ffbc;
+}

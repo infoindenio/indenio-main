@@ -61,7 +61,7 @@ const Contact = () => {
                 <ul>
                   <li>
                     <div className="phone">
-                      <a href="tel:+447301701155">+44 7301 701155</a>
+                      <a href="https://wa.me/923454943966" target="_blank" rel="noopener noreferrer">+92 345 4943966</a>
                     </div>
                   </li>
                   <li>

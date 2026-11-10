@@ -11,7 +11,7 @@ const ServiceDetails = () => {
                         
                         <div className="agenko-iamge-box mb-70 pf_zoomIn">
                             <div className="agenko-image">
-                                <img src="/assets/images/pages/service/single-service1.jpg" alt="Agenko Image" />
+                                <img src="/assets/svg/banner-development.svg" alt="Agenko Image" />
                             </div>
                         </div>
                     </div>
@@ -28,16 +28,16 @@ const ServiceDetails = () => {
                                 <div className="col-md-6">
                                     <div className="agenko-counter-item">
                                         <div className="content">
-                                            <h2><span className="count">5000</span>+</h2>
-                                            <p>Project Complete</p>
+                                            <h2><span className="count">240</span>+</h2>
+                                            <p>Projects Delivered</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-md-6">
                                     <div className="agenko-counter-item">
                                         <div className="content">
-                                            <h2><span className="count">100</span>%</h2>
-                                            <p>Satisfaction Clients</p>
+                                            <h2><span className="count">10</span>+</h2>
+                                            <p>Years of Experience</p>
                                         </div>
                                     </div>
                                 </div>

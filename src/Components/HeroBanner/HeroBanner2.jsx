@@ -14,17 +14,17 @@ const HeroBanner2 = () => {
                     <div className="col-lg-12">
                         <div className="hero-content">
                             <h1>
-                                <span className="text-anm">Digital Modern</span>
+                                <span className="text-anm">Web &amp; Growth</span>
                                 <span className="text-anm">Agency</span>
                             </h1>
                             {/* <div className="pro">Pro</div> */}
                             <div className="text-box text-box-home pf_fadeup">
-                                <p><span>Indenio,</span> we deliver creative digital solutions across design, technology, marketing, and e-commerce to help businesses grow and lead in the future.</p>
+                                <p><span>Indenio</span> builds custom websites, ranks them on Google and runs marketing that brings real enquiries to businesses worldwide.</p>
                                 <div className="hero-button">
-                                    <Link to="/about" className="theme-btn style-one">
+                                    <Link to="/contact" className="theme-btn style-one">
                                         <span className="text-flip">
-                                            <span className="text">LEARN MORE</span>
-                                            <span className="text">LEARN MORE</span>
+                                            <span className="text">FREE CONSULTATION</span>
+                                            <span className="text">FREE CONSULTATION</span>
                                         </span>
                                     </Link>
                                 </div>
@@ -48,12 +48,12 @@ const HeroBanner2 = () => {
                             </li>
                             <li>
                                 
-                                <Link to="/service/mobile" className="agenko-iconic-box style-one">
+                                <Link to="/service/seo" className="agenko-iconic-box style-one">
                                     <div className="icon">
-                                    <i className="bi bi-code-square"></i>
+                                    <i className="bi bi-search"></i>
                                     </div>
                                     <div className="content">
-                                        <h4 className="title">Mobile App Development</h4>
+                                        <h4 className="title">SEO &amp; Google Ranking</h4>
                                     </div>
                                 </Link>
                             </li>
@@ -61,21 +61,21 @@ const HeroBanner2 = () => {
                                 
                                 <Link to="/service/ecommerce" className="agenko-iconic-box style-one">
                                     <div className="icon">
-                                    <i className="bi bi-lightbulb"></i>
+                                    <i className="bi bi-cart3"></i>
                                     </div>
                                     <div className="content">
-                                        <h4 className="title">E-commerce Solutions</h4>
+                                        <h4 className="title">E-commerce Stores</h4>
                                     </div>
                                 </Link>
                             </li>
                             <li>
                                
-                                <Link to="/service/software" className="agenko-iconic-box style-one">
+                                <Link to="/service/media" className="agenko-iconic-box style-one">
                                     <div className="icon">
                                     <i className="bi bi-megaphone"></i>
                                     </div>
                                     <div className="content">
-                                        <h4 className="title">Custom Software Development</h4>
+                                        <h4 className="title">Social Media &amp; Ads</h4>
                                     </div>
                                 </Link>
                             </li>
@@ -84,7 +84,7 @@ const HeroBanner2 = () => {
                     <div className="col-lg-8">
                         
                         <div className="hero-image style-one pf_fadeup">
-                            <img src="/assets/images/digital-agency/hero/hero-img1.jpg" alt="Hero Image" />
+                            <img src="/assets/svg/hero.svg" alt="Hero Image" />
                         </div>
                     </div>
                 </div>

@@ -1,41 +1,7 @@
 import "../../src/assets/portfolio.css";
 // Website images
-import img1 from "/assets/images/portfolio/images/web1.png";
-import img2 from "/assets/images/portfolio/images/web2.png";
-import img3 from "/assets/images/portfolio/images/web3.png";
-import img4 from "/assets/images/portfolio/images/web4.png";
-import img5 from "/assets/images/portfolio/images/web5.png";
-import img6 from "/assets/images/portfolio/images/web6.png";
-import img7 from "/assets/images/portfolio/images/web7.png";
-import img8 from "/assets/images/portfolio/images/web8.png";
-import img9 from "/assets/images/portfolio/images/web9.png";
-import img10 from "/assets/images/portfolio/images/web10.png";
-import img11 from "/assets/images/portfolio/images/web11.png";
-import img12 from "/assets/images/portfolio/images/web12.png";
-import img13 from "/assets/images/portfolio/images/web13.png";
-import img14 from "/assets/images/portfolio/images/web14.png";
-import img15 from "/assets/images/portfolio/images/web15.png";
-import img16 from "/assets/images/portfolio/images/web16.png";
-import img17 from "/assets/images/portfolio/images/web17.png";
 
 // Website mockups
-import mockupw1 from "/assets/images/portfolio/images/mockupw1.png";
-import mockupw2 from "/assets/images/portfolio/images/mockupw2.png";
-import mockupw3 from "/assets/images/portfolio/images/mockupw3.png";
-import mockupw4 from "/assets/images/portfolio/images/mockupw4.png";
-import mockupw5 from "/assets/images/portfolio/images/mockupw5.png";
-import mockupw6 from "/assets/images/portfolio/images/mockupw6.png";
-import mockupw7 from "/assets/images/portfolio/images/mockupw7.png";
-import mockupw8 from "/assets/images/portfolio/images/mockupw8.png";
-import mockupw9 from "/assets/images/portfolio/images/mockupw9.png";
-import mockupw10 from "/assets/images/portfolio/images/mockupw10.png";
-import mockupw11 from "/assets/images/portfolio/images/mockupw11.png";
-import mockupw12 from "/assets/images/portfolio/images/mockupw12.png";
-import mockupw13 from "/assets/images/portfolio/images/mockupw13.png";
-import mockupw14 from "/assets/images/portfolio/images/mockupw14.png";
-import mockupw15 from "/assets/images/portfolio/images/mockupw15.png";
-import mockupw16 from "/assets/images/portfolio/images/mockupw16.png";
-import mockupw17 from "/assets/images/portfolio/images/mockupw17.png";
 
 // Figma mockups
 import figma1 from "/assets/images/portfolio/images/mockupf1.png";
@@ -85,24 +51,23 @@ import logo24 from "/assets/images/portfolio/images/logo24.png";
 import logo25 from "/assets/images/portfolio/images/logo25.png";
 
 const portfolioData = [
-  // Websites
-  { id: 1, title: "Trading Website", category: "website", image: img1, mockup: mockupw1, tags: ["Website", "E-commerce", "Trading"], link: "#" },
-  { id: 2, title: "Safe Harbor Marinas", category: "website", image: img2, mockup: mockupw2, tags: ["Website", "Harbor", "Responsive"], link: "#" },
-  { id: 3, title: "Freshwipe", category: "website", image: img3, mockup: mockupw3, tags: ["Website", "Cleaning Services", "Cleaner"], link: "#" },
-  { id: 4, title: "Keen Services Group", category: "website", image: img4, mockup: mockupw4, tags: ["Website", "Repairing", "Cleaning"], link: "#" },
-  { id: 5, title: "Bin Fazal Solar", category: "website", image: img5, mockup: mockupw5, tags: ["Website", "Solar", "Energy"], link: "#" },
-  { id: 6, title: "MG Boo", category: "website", image: img6, mockup: mockupw6, tags: ["Website", "E-commerence", "Responsive"], link: "#" },
-  { id: 7, title: "Shobay", category: "website", image: img7, mockup: mockupw7, tags: ["Website", "E-commerence", "Responsive"], link: "#" },
-  { id: 8, title: "Shifa CM", category: "website", image: img8, mockup: mockupw8, tags: ["Website", "Hospital", "Modern"], link: "#" },
-  { id: 9, title: "International Immigration Law Partners", category: "website", image: img9, mockup: mockupw9, tags: ["Website", "Law", "Immigration"], link: "#" },
-  { id: 10, title: "Sneaker Junky", category: "website", image: img10, mockup: mockupw10, tags: ["Website", "Sneaker", "Modern"], link: "#" },
-  { id: 11, title: "Integra Solar", category: "website", image: img11, mockup: mockupw11, tags: ["Website", "Solar", "Custom"], link: "#" },
-  { id: 12, title: "GSE Solar", category: "website", image: img12, mockup: mockupw12, tags: ["Website", "Solar", "Energy"], link: "#" },
-  { id: 13, title: "The Professional Company", category: "website", image: img13, mockup: mockupw13, tags: ["Website", "Security", "Real Estate"], link: "#" },
-  { id: 14, title: "Retail Specialist", category: "website", image: img14, mockup: mockupw14, tags: ["Website", "Retail", "UI/UX"], link: "#" },
-  { id: 15, title: "Sky Glass", category: "website", image: img15, mockup: mockupw15, tags: ["Website", "Movie", "Streaming"], link: "#" },
-  { id: 23, title: "Event Booker", category: "website", image: img16, mockup: mockupw16, tags: ["Website", "Movie", "Streaming"], link: "#" },
-  { id: 24, title: "Integra Energy Group", category: "website", image: img17, mockup: mockupw17, tags: ["Website", "Solar", "Energy"], link: "#" },
+  // Websites (latest first)
+  { id: 101, title: "Fitnesspoint", category: "website", image: "/assets/svg/project-fitnesspoint-card.svg", mockup: "/assets/svg/project-fitnesspoint.svg", tags: ["Website", "Gym & Fitness", "Norway"], link: "https://www.fitnesspoint.no", country: "Norway" },
+  { id: 24, title: "Integra Energy Group", category: "website", image: "/assets/svg/project-integra-au-card.svg", mockup: "/assets/svg/project-integra-au.svg", tags: ["Website", "Solar", "Australia"], link: "https://integrasolar.com.au", country: "Australia" },
+  { id: 102, title: "DreamCraft Furniture", category: "website", image: "/assets/svg/project-dreamcraftfurniture-card.svg", mockup: "/assets/svg/project-dreamcraftfurniture.svg", tags: ["WooCommerce", "Custom Plugin", "Meta Ads"], link: "https://dreamcraftfurniture.net", country: "United Kingdom" },
+  { id: 103, title: "Securiwise", category: "website", image: "/assets/svg/project-securiwise-card.svg", mockup: "/assets/svg/project-securiwise.svg", tags: ["Website", "Security Services", "UK"], link: "https://securiwise.co.uk", country: "United Kingdom" },
+  { id: 7, title: "Shobay", category: "website", image: "/assets/svg/project-shobay-card.svg", mockup: "/assets/svg/project-shobay.svg", tags: ["Website", "E-commerce", "WooCommerce"], link: "https://shobay.co.uk", country: "United Kingdom" },
+  { id: 12, title: "GSE Solar", category: "website", image: "/assets/svg/project-gsesolar-card.svg", mockup: "/assets/svg/project-gsesolar.svg", tags: ["Website", "Solar", "Energy"], link: "https://gsesolar.com.pk", country: "Pakistan" },
+  { id: 14, title: "Retail Specialist", category: "website", image: "/assets/svg/project-retailspecialist-card.svg", mockup: "/assets/svg/project-retailspecialist.svg", tags: ["Website", "Retail Staffing", "UK"], link: "https://retailspecialist.co.uk", country: "United Kingdom" },
+  { id: 8, title: "Shifa CM", category: "website", image: "/assets/svg/project-shifacm-card.svg", mockup: "/assets/svg/project-shifacm.svg", tags: ["Website", "Healthcare", "Modern"], link: "https://shifacm.com" },
+  { id: 104, title: "Cars Rental 24/7", category: "website", image: "/assets/svg/project-carsrental247-card.svg", mockup: "/assets/svg/project-carsrental247.svg", tags: ["Website", "Car Rental", "Google Ads"], link: "https://carsrental247.pk", country: "Pakistan" },
+  { id: 105, title: "Pasha Dry Fruit", category: "website", image: "/assets/svg/project-pashadryfruit-card.svg", mockup: "/assets/svg/project-pashadryfruit.svg", tags: ["WooCommerce", "Redesign", "Security Cleanup"], link: "https://pashadryfruit.com", country: "Pakistan" },
+  { id: 106, title: "London Mayfair Clubs", category: "website", image: "/assets/svg/project-londonmayfairclubs-card.svg", mockup: "/assets/svg/project-londonmayfairclubs.svg", tags: ["Custom Theme", "Technical SEO", "Content"], link: "https://londonmayfairclubs.co.uk", country: "United Kingdom" },
+  { id: 11, title: "Integra Solar Pakistan", category: "website", image: "/assets/svg/project-integra-pk-card.svg", mockup: "/assets/svg/project-integra-pk.svg", tags: ["Website", "Solar", "Pakistan"], link: "https://integrasolar.com.pk", country: "Pakistan" },
+
+  // SEO & Marketing
+  { id: 107, title: "OnStak", category: "seo & marketing", image: "/assets/svg/project-onstak-card.svg", mockup: "/assets/svg/project-onstak.svg", tags: ["SEO Audit", "Landing Pages", "Lead Funnel"], link: "https://onstak.com", country: "United States" },
+  { id: 108, title: "The Anna Studio", category: "seo & marketing", image: "/assets/svg/project-theannastudio-card.svg", mockup: "/assets/svg/project-theannastudio.svg", tags: ["Local SEO", "Social Media", "Meta Ads"], link: "https://theannastudio.com", country: "United States" },
 
   // Figma
   { id: 16, title: "Marvel App Design", category: "figma", image: figma1, mockup: figma1, tags: ["UI/UX", "prototype"], link: "#" },
@@ -146,13 +111,5 @@ const portfolioData = [
   { id: 46, title: "Shobay", category: "graphic", image: logo25, mockup: logo25, tags: ["branding", "creative"], link: "#" },
 ];
 
-// Shuffle function
-const shuffleArray = (array) => {
-  return array
-    .map((item) => ({ item, sort: Math.random() }))
-    .sort((a, b) => a.sort - b.sort)
-    .map(({ item }) => item);
-};
-
-// Export shuffled portfolio
-export default shuffleArray(portfolioData);
+// Fixed order: latest projects first
+export default portfolioData;

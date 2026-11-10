@@ -3,13 +3,13 @@ import React, { useEffect, useRef, useState } from 'react';
 const Faq1 = () => {
 
     const faqContent = [
-        {title:'What services does Indenio provide?', content:'Indenio offers web development, mobile apps, e-commerce, and branding solutions designed to help businesses grow and build a strong digital presence.'},
-        {title:'Can I manage and update my project content myself?', content:'Yes, Indenio delivers CMS-based solutions like WordPress, Shopify, or custom panels, so you can easily edit content, add pages, and manage updates without technical skills.'},
-        {title:'How does Indenio’s project process work?', content:'Our team follows a streamlined process that includes planning, design, development, and testing, ensuring a smooth experience and high-quality results.'},
-        {title:'How long will it take to finish my project?', content:'Project timelines depend on complexity, but Indenio ensures efficient delivery by setting clear milestones and keeping communication transparent at every stage.'},
-        {title:'Does Indenio provide support after project delivery?', content:'Yes, Indenio offers ongoing maintenance, technical support, and performance monitoring to keep your digital products secure and up to date.'},
-        {title:'Can Indenio redesign or upgrade my existing website?', content:'Absolutely, Indenio specializes in revamping old websites with modern designs, enhanced functionality, and improved user experiences to match today’s needs.'},
-      ]; 
+        {title:'What services does Indenio provide?', content:'We build custom WordPress websites and WooCommerce stores, handle SEO (technical, on-page, local and content) and run social media and paid ads on Meta and Google. You can hire us for one service or the complete package.'},
+        {title:'How long does a new website take?', content:'Most business websites take 2 to 4 weeks from design approval. Larger online stores or custom features can take longer, and we agree a clear timeline with you before we start.'},
+        {title:'Will my website rank on Google?', content:'Every site we build is fast, mobile-friendly and SEO-ready from day one. For competitive keywords we offer monthly SEO packages covering technical fixes, content and local SEO.'},
+        {title:'Can I update the website myself?', content:'Yes. We build on WordPress so you can edit text, images, products and blog posts yourself, and we show you how. We can also handle updates for you on a monthly plan.'},
+        {title:'Do you work with clients outside Pakistan?', content:'Yes. We work with businesses in the UK, USA, Norway and Australia as well as Pakistan, communicating on WhatsApp, email and video calls in your time zone.'},
+        {title:'Do you provide support after launch?', content:'Yes. We offer ongoing maintenance, security monitoring, malware cleanup, backups and growth work such as SEO and ads, as one-off jobs or monthly retainers.'}
+    ]; 
 
       const accordionContentRef = useRef(null);
       const [openItemIndex, setOpenItemIndex] = useState(-1);
@@ -50,7 +50,7 @@ const Faq1 = () => {
                                     
                                     <div className="agk-image-box mb-50 pf_fadeup">
                                         <div className="agk-image">
-                                            <img src="/assets/images/digital-agency/faq/faq1.webp" alt="faq image" />
+                                            <img src="/assets/svg/faq.svg" alt="faq image" />
                                         </div>
                                     </div>
                                 </div>

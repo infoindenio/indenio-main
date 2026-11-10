@@ -885,3 +885,8 @@ body {
     display: none;
   }
 }
+/* Indenio additions */
+.portfolio-card-country{display:inline-block;margin-top:6px;font-size:12px;font-weight:600;color:#00FFBC;letter-spacing:.04em}
+.modal-country{color:#00FFBC;font-weight:600;margin:4px 0 12px}
+.modal-visit-button{display:inline-block;margin-top:18px;padding:12px 24px;border-radius:999px;background:#00FFBC;color:#0E0F11 !important;font-weight:700;text-decoration:none;transition:transform .2s}
+.modal-visit-button:hover{transform:translateY(-2px)}

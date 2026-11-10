@@ -9,7 +9,7 @@ const Ecommerce = () => {
                         <div className="col-lg-12">
                             <div className="agenko-iamge-box mb-70 pf_zoomIn">
                                 <div className="agenko-image">
-                                    <img src="/assets/images/pages/service/ecommerce.jpeg" alt="Indenio E-commerce Solutions" />
+                                    <img src="/assets/svg/banner-ecommerce.svg" alt="Indenio E-commerce Solutions" />
                                 </div>
                             </div>
                         </div>
@@ -25,16 +25,16 @@ const Ecommerce = () => {
                                     <div className="col-md-6">
                                         <div className="agenko-counter-item">
                                             <div className="content">
-                                                <h2><span className="count">1500</span>+</h2>
-                                                <p>Stores Launched</p>
+                                                <h2><span className="count">240</span>+</h2>
+                                                <p>Projects Delivered</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-md-6">
                                         <div className="agenko-counter-item">
                                             <div className="content">
-                                                <h2><span className="count">99</span>%</h2>
-                                                <p>Client Retention</p>
+                                                <h2><span className="count">10</span>+</h2>
+                                                <p>Years of Experience</p>
                                             </div>
                                         </div>
                                     </div>

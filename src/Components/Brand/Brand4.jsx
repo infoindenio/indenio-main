@@ -37,7 +37,7 @@ const Brand4 = () => {
                     <div className="col-lg-12">
                         <div className="section-title text-center mb-40 pf_zoomIn">
                             <span className="sub-title">Our Client</span>
-                            <h2>Trusted Industry Leader</h2>
+                            <h2>Brands We Have Worked With</h2>
                         </div>
                     </div>
                 </div>
@@ -67,8 +67,20 @@ const Brand4 = () => {
         className="theme-btn style-one"
       >
         <span className="text-flip">
-          <span className="text">Say Hello</span>
-          <span className="text">Say Hello</span>
+          <span className="text">Get a Free Quote</span>
+          <span className="text">Get a Free Quote</span>
+        </span>
+      </a>
+      <a
+        href="https://wa.me/923454943966"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="theme-btn style-one"
+        style={{ marginLeft: "12px", background: "#25D366" }}
+      >
+        <span className="text-flip">
+          <span className="text">WhatsApp Us</span>
+          <span className="text">WhatsApp Us</span>
         </span>
       </a>
     </div>

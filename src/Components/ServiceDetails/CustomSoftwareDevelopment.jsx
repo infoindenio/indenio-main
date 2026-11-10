@@ -9,7 +9,7 @@ const Software = () => {
                         <div className="col-lg-12">
                             <div className="agenko-iamge-box mb-70 pf_zoomIn">
                                 <div className="agenko-image">
-                                    <img src="/assets/images/pages/service/softwaredevelopment.jpeg" alt="Indenio Custom Software Development" />
+                                    <img src="/assets/svg/banner-software.svg" alt="Indenio Custom Software Development" />
                                 </div>
                             </div>
                         </div>
@@ -25,16 +25,16 @@ const Software = () => {
                                     <div className="col-md-6">
                                         <div className="agenko-counter-item">
                                             <div className="content">
-                                                <h2><span className="count">3000</span>+</h2>
-                                                <p>Solutions Delivered</p>
+                                                <h2><span className="count">240</span>+</h2>
+                                                <p>Projects Delivered</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-md-6">
                                         <div className="agenko-counter-item">
                                             <div className="content">
-                                                <h2><span className="count">100</span>%</h2>
-                                                <p>Tailored Success</p>
+                                                <h2><span className="count">10</span>+</h2>
+                                                <p>Years of Experience</p>
                                             </div>
                                         </div>
                                     </div>

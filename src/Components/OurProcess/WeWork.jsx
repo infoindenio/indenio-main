@@ -41,7 +41,7 @@ const WhatWeWork = () => {
                     
                     <div className="agk-image-box style-one mb-50 pf_fadeup">
                         <div className="agk-image">
-                            <img src="/assets/images/digital-agency/about/wework.jpg" alt="img" />
+                            <img src="/assets/svg/wework.svg" alt="img" />
                         </div>
                     </div>
                 </div>

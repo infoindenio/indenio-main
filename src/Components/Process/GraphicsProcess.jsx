@@ -7,12 +7,12 @@ const GraphicsProcess = () => {
 
   const processContent = [
     {
-      img: "/assets/images/pages/gallery/process2.webp",
+      img: "/assets/svg/square-branding.svg",
       title: "Branding",
       link: "/service/branding",
     },
     {
-      img: "/assets/images/pages/gallery/process3.webp",
+      img: "/assets/svg/square-stationary.svg",
       title: "Stationary Work",
       link: "/service/stationary",
     },

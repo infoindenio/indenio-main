@@ -7,12 +7,12 @@ const MarketingProcess = () => {
 
   const processContent = [
     {
-      img: "/assets/images/pages/gallery/process3.webp",
+      img: "/assets/svg/square-social.svg",
       title: "Social Media Marketing",
       link: "/service/social-media",
     },
     {
-      img: "/assets/images/pages/gallery/process4.webp",
+      img: "/assets/svg/square-seo.svg",
       title: "SEO",
       link: "/service/seo",
     },

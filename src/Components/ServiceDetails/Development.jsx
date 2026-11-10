@@ -10,7 +10,7 @@ const Development = () => {
                         <div className="col-lg-12">
                             <div className="agenko-image text-center mb-50 pf_zoomIn">
                                 <img
-                                    src="/assets/images/pages/service/development.png"
+                                    src="/assets/svg/banner-development.svg"
                                     alt="Indenio Development Services"
                                     className="img-fluid rounded shadow"
                                 />
@@ -31,7 +31,7 @@ const Development = () => {
                                     <div className="col-sm-6 mb-4">
                                         <div className="agenko-counter-item">
                                             <div className="content">
-                                                <h2><span className="count">3000</span>+</h2>
+                                                <h2><span className="count">240</span>+</h2>
                                                 <p>Projects Delivered</p>
                                             </div>
                                         </div>
@@ -39,8 +39,8 @@ const Development = () => {
                                     <div className="col-sm-6 mb-4">
                                         <div className="agenko-counter-item">
                                             <div className="content">
-                                                <h2><span className="count">100</span>%</h2>
-                                                <p>Client Satisfaction</p>
+                                                <h2><span className="count">10</span>+</h2>
+                                                <p>Years of Experience</p>
                                             </div>
                                         </div>
                                     </div>

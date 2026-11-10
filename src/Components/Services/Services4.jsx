@@ -5,28 +5,28 @@ const Services4 = () => {
 
     const serviceContent = [
         {
-            img: '/assets/images/pages/service/card-img1.jpeg',
+            img: '/assets/svg/card-development.svg',
             title: 'Development',
             subTitle: 'Web & App Solutions',
             content: 'Indenio delivers innovative and scalable development services, creating high-performance, user-friendly web and mobile solutions tailored to your business needs.',
             link: '/service/development'
         },
         {
-            img: '/assets/images/pages/service/card-img2.jpeg',
+            img: '/assets/svg/card-uiux.svg',
             title: 'UI/UX Design',
             subTitle: 'Creative & User-Centric',
             content: 'Indenio crafts intuitive and visually stunning UI/UX designs, focusing on seamless user journeys that enhance engagement and elevate digital experiences.',
             link: '/service/uiux'
         },
         {
-            img: '/assets/images/pages/service/card-img3.jpeg',
+            img: '/assets/svg/card-graphics.svg',
             title: 'Graphics',
             subTitle: 'Branding & Visual Identity',
             content: 'Indenio provides impactful graphic design solutions, from branding to visual storytelling, helping businesses communicate effectively and stand out with creativity.',
             link: '/service/graphics'
         },
         {
-            img: '/assets/images/pages/service/card-img4.jpeg',
+            img: '/assets/svg/card-marketing.svg',
             title: 'Marketing',
             subTitle: 'Digital Growth Strategies',
             content: 'Indenio offers data-driven marketing services, including SEO and social campaigns, designed to boost visibility, drive conversions, and accelerate business growth.',

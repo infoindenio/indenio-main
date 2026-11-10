@@ -5,8 +5,9 @@ import Services2 from '../Components/Services/Services2';
 import Project2 from '../Components/Project/Project2';
 import WhoWeAre from '../Components/WhoWeAre/WhoWeAre';
 import Process2 from '../Components/Process/Process2';
-import Testimonial2 from '../Components/Testimonial/Testimonial2';
+// import Testimonial2 from '../Components/Testimonial/Testimonial2'; // hidden until real client reviews are added
 import Faq1 from '../Components/Faq/Faq1';
+import ClientResults from '../Components/ClientResults/ClientResults';
 // import Team1 from '../Components/Team/Team1';
 import Brand2 from '../Components/Brand/Brand2';
 // import Blog2 from '../Components/Blog/Blog2';
@@ -20,7 +21,8 @@ const Home2 = () => {
             <Project2></Project2>
             <WhoWeAre></WhoWeAre>
             <Process2></Process2>
-            <Testimonial2></Testimonial2>
+            {/* <Testimonial2></Testimonial2> */}
+            <ClientResults></ClientResults>
             <Faq1></Faq1>
             {/* <Team1></Team1> */}
             <Brand2></Brand2>

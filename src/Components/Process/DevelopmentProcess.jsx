@@ -7,22 +7,22 @@ const DevelopmentProcess = () => {
 
   const processContent = [
     {
-      img: "/assets/images/pages/gallery/process1.webp",
+      img: "/assets/svg/square-web.svg",
       title: "Web Development",
       link: "/service/web",
     },
     {
-      img: "/assets/images/pages/gallery/process2.webp",
+      img: "/assets/svg/square-mobile.svg",
       title: "Mobile App Development",
       link: "/service/mobile",
     },
     {
-      img: "/assets/images/pages/gallery/process3.webp",
+      img: "/assets/svg/square-ecommerce.svg",
       title: "E-commerce Solutions",
       link: "/service/ecommerce",
     },
     {
-      img: "/assets/images/pages/gallery/process4.webp",
+      img: "/assets/svg/square-software.svg",
       title: "Custom Software Development",
       link: "/service/software",
     },

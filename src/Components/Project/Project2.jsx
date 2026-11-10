@@ -5,28 +5,32 @@ const Project2 = () => {
 
     const chooseContent = [
         {
-            img:'/assets/images/digital-agency/project/project1.png', 
-            title:'Responsive Website Development', 
-            cat1:'Web', 
-            cat2:'Development'
+            img:'/assets/svg/project-fitnesspoint-card.svg',
+            title:'Fitnesspoint — Gym Chain, Norway',
+            cat1:'Website',
+            cat2:'Gym & Fitness',
+            link:'https://www.fitnesspoint.no'
         },
         {
-            img:'/assets/images/digital-agency/project/project4.png', 
-            title:'Custom Mobile App Solutions', 
-            cat1:'Mobile', 
-            cat2:'App Development'
+            img:'/assets/svg/project-integra-au-card.svg',
+            title:'Integra Energy Group — Australia',
+            cat1:'Website',
+            cat2:'Solar Energy',
+            link:'https://integrasolar.com.au'
         },
         {
-            img:'/assets/images/digital-agency/project/project3.png', 
-            title:'Creative Branding & Logo Design', 
-            cat1:'Graphics', 
-            cat2:'Branding'
+            img:'/assets/svg/project-dreamcraftfurniture-card.svg',
+            title:'DreamCraft Furniture — UK',
+            cat1:'WooCommerce',
+            cat2:'Meta Ads',
+            link:'https://dreamcraftfurniture.net'
         },
         {
-            img:'/assets/images/digital-agency/project/project2.png', 
-            title:'Creative Figma Designs', 
-            cat1:'Figma', 
-            cat2:'Design'
+            img:'/assets/svg/project-securiwise-card.svg',
+            title:'Securiwise — Security Services, UK',
+            cat1:'Website',
+            cat2:'Security',
+            link:'https://securiwise.co.uk'
         },
     ]; 
 
@@ -38,8 +42,8 @@ const Project2 = () => {
                     
                     <div className="section-title mb-60 pf_fadeup">
                         <span className="sub-title">Our Work</span>
-                        <h2>Building Tomorrow's Digital 
-                            Experiences Today</h2>
+                        <h2>Latest Websites We've 
+                            Built &amp; Grown</h2>
                     </div>
                 </div>
                 <div className="col-lg-5">
@@ -58,17 +62,17 @@ const Project2 = () => {
                 <div key={i} className="col-lg-6">
                     <div className="agenko-project-item style-one mb-45 pf_fadeup">
                         <div className="thumbnail">
-                            <img src={item.img} alt="Project Image" />
+                            <img src={item.img} alt={item.title} />
                             <div className="project-button">
-                                <Link to="/project"><i className="bi bi-plus-lg"></i></Link>
+                                <a href={item.link} target="_blank" rel="noopener noreferrer"><i className="bi bi-arrow-up-right"></i></a>
                             </div>
                         </div>
                         <div className="content">
                             <div className="project-categories">
-                                <a href="#">{item.cat1}</a>
-                                <a href="#">{item.cat2}</a>
+                                <Link to="/project">{item.cat1}</Link>
+                                <Link to="/project">{item.cat2}</Link>
                             </div>
-                            <h4 className="title"><Link to="/project/project-details">{item.title}</Link></h4>
+                            <h4 className="title"><a href={item.link} target="_blank" rel="noopener noreferrer">{item.title}</a></h4>
                         </div>
                     </div>
                 </div>

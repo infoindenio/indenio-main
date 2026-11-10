@@ -12,8 +12,8 @@ const transporter = nodemailer.createTransport({
   port: 587, // Changed from 465 to 587
   secure: false, // false for port 587
   auth: {
-    user: 'info@indenio.com',
-    pass: 'Indenio123@'
+    user: process.env.SMTP_USER || 'info@indenio.com',
+    pass: process.env.SMTP_PASS // set SMTP_PASS in your hosting environment variables; never write the password here
   },
   tls: {
     ciphers: 'SSLv3'

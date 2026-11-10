@@ -24,28 +24,23 @@ const WhoWeAre = () => {
             <div className="agk-content-box mb-50 pf_fadeup">
               <div className="section-title mb-30">
                 <span className="sub-title">Who We Are</span>
-                <h2>Shaping Digital Growth with INDENIO</h2>
+                <h2>One Team for Your Website, SEO &amp; Marketing</h2>
               </div>
               <ul className="check-list style-one mb-40">
                 <li>
-                  <i className="bi bi-check2-circle"></i>Innovative digital
-                  solutions crafted for businesses of all sizes
+                  <i className="bi bi-check2-circle"></i>Custom-built websites and stores, never cookie-cutter templates
                 </li>
                 <li>
-                  <i className="bi bi-check2-circle"></i>Creative strategies for
-                  marketing, e-commerce & brand success
+                  <i className="bi bi-check2-circle"></i>SEO built in from day one, so Google can find and rank you
                 </li>
                 <li>
-                  <i className="bi bi-check2-circle"></i>Client-focused approach
-                  with measurable results
+                  <i className="bi bi-check2-circle"></i>Talk directly to the people building your project on WhatsApp
                 </li>
                 <li>
-                  <i className="bi bi-check2-circle"></i>Seamless blend of
-                  design, technology, and strategy
+                  <i className="bi bi-check2-circle"></i>Clients in the UK, USA, Norway, Australia and Pakistan
                 </li>
                 <li>
-                  <i className="bi bi-check2-circle"></i>Trusted partner for
-                  sustainable digital transformation
+                  <i className="bi bi-check2-circle"></i>Ongoing support, security cleanups, updates and growth after launch
                 </li>
               </ul>
               <div className="agk-button">
@@ -62,7 +57,7 @@ const WhoWeAre = () => {
             <div className="agk-play-image-box mb-50 pf_fadeup">
               <div className="agk-image style-four">
                 <img
-                  src="/assets/images/digital-agency/features/who1.webp"
+                  src="/assets/svg/who.svg"
                   className="rounded-2"
                   alt="About INDENIO"
                 />
@@ -79,7 +74,7 @@ const WhoWeAre = () => {
       <div className="row">
         <div className="col-lg-12">
           <div className="big-text text-center mt-80 pt-70">
-            <h2 className="text-anm-two">DIGITAL MODERN AGENCY</h2>
+            <h2 className="text-anm-two">WEB · SEO · MARKETING</h2>
           </div>
         </div>
       </div>

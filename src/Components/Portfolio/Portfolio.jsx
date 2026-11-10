@@ -55,6 +55,7 @@ function PortfolioCard({ item, onView }) {
       {/* Title / Details */}
       <div className="portfolio-card-content">
         <h3 className="portfolio-card-title">{item.title}</h3>
+        {item.country && <span className="portfolio-card-country">{item.country}</span>}
       </div>
     </div>
   );
@@ -189,6 +190,9 @@ function PortfolioGrid({ items }) {
                 {/* Details Container */}
                 <div className="modal-details">
                   <h2 className="modal-title">{items[selectedIndex].title}</h2>
+                  {items[selectedIndex].country && (
+                    <p className="modal-country">{items[selectedIndex].country}</p>
+                  )}
 
                   {/* Tags */}
                   {items[selectedIndex].tags && (
@@ -199,6 +203,17 @@ function PortfolioGrid({ items }) {
                         </span>
                       ))}
                     </div>
+                  )}
+
+                  {items[selectedIndex].link && items[selectedIndex].link !== "#" && (
+                    <a
+                      href={items[selectedIndex].link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="modal-visit-button"
+                    >
+                      Visit Website ↗
+                    </a>
                   )}
                 </div>
               </div>
@@ -212,7 +227,7 @@ function PortfolioGrid({ items }) {
 
 // Main Portfolio Component
 export default function Portfolio({ portfolioData }) {
-  const categories = ["all", "website", "figma", "graphic", "app"];
+  const categories = ["all", "website", "seo & marketing", "figma", "graphic", "app"];
   const [filter, setFilter] = useState("all");
 
   const filteredItems =

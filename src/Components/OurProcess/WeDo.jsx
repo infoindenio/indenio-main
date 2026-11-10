@@ -10,7 +10,7 @@ const WhatWeDo = () => {
                     
                     <div className="agk-image-box style-one mb-50 pf_fadeup mr-35">
                         <div className="agk-image">
-                            <img src="/assets/images/digital-agency/about/wedo.png" alt="img" />
+                            <img src="/assets/svg/wedo.svg" alt="img" />
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@ const WhatWeDo = () => {
                     
                     <div className="agk-image-box style-one mb-50 pf_fadeup">
                         <div className="agk-image">
-                            <img src="/assets/images/digital-agency/about/wedo.png" alt="img" />
+                            <img src="/assets/svg/wedo.svg" alt="img" />
                         </div>
                     </div>
                 </div> */}

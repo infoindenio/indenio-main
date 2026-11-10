@@ -9,7 +9,7 @@ const UIUX = () => {
                         <div className="col-lg-12">
                             <div className="agenko-iamge-box mb-70 pf_zoomIn">
                                 <div className="agenko-image">
-                                    <img src="/assets/images/pages/service/uiux.jpeg" alt="Indenio UI UX Design" />
+                                    <img src="/assets/svg/banner-uiux.svg" alt="Indenio UI UX Design" />
                                 </div>
                             </div>
                         </div>
@@ -25,16 +25,16 @@ const UIUX = () => {
                                     <div className="col-md-6">
                                         <div className="agenko-counter-item">
                                             <div className="content">
-                                                <h2><span className="count">3000</span>+</h2>
-                                                <p>Designs Delivered</p>
+                                                <h2><span className="count">240</span>+</h2>
+                                                <p>Projects Delivered</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-md-6">
                                         <div className="agenko-counter-item">
                                             <div className="content">
-                                                <h2><span className="count">100</span>%</h2>
-                                                <p>User Satisfaction</p>
+                                                <h2><span className="count">10</span>+</h2>
+                                                <p>Years of Experience</p>
                                             </div>
                                         </div>
                                     </div>

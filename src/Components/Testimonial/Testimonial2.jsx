@@ -64,7 +64,7 @@ const Testimonial2 = () => {
                             
                             <div className="agk-image-box mb-50 pf_fadeup">
                                 <div className="agk-image">
-                                    <img src="/assets/images/digital-agency/testimonial/testimonial_img2.png" className="animated-image" alt="testimonial image" />
+                                    <img src="/assets/svg/faq.svg" className="animated-image" alt="testimonial image" />
                                 </div>
                             </div>
                         </div>

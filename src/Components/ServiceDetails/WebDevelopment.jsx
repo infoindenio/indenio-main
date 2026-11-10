@@ -9,7 +9,7 @@ const Web = () => {
                         <div className="col-lg-12">
                             <div className="agenko-iamge-box mb-70 pf_zoomIn">
                                 <div className="agenko-image">
-                                    <img src="/assets/images/pages/service/web-development.png" alt="Indenio Web Development" />
+                                    <img src="/assets/svg/banner-web.svg" alt="Indenio Web Development" />
                                 </div>
                             </div>
                         </div>
@@ -25,7 +25,7 @@ const Web = () => {
                                     <div className="col-md-6">
                                         <div className="agenko-counter-item">
                                             <div className="content">
-                                                <h2><span className="count">5000</span>+</h2>
+                                                <h2><span className="count">240</span>+</h2>
                                                 <p>Projects Delivered</p>
                                             </div>
                                         </div>
@@ -33,8 +33,8 @@ const Web = () => {
                                     <div className="col-md-6">
                                         <div className="agenko-counter-item">
                                             <div className="content">
-                                                <h2><span className="count">100</span>%</h2>
-                                                <p>Client Satisfaction</p>
+                                                <h2><span className="count">10</span>+</h2>
+                                                <p>Years of Experience</p>
                                             </div>
                                         </div>
                                     </div>

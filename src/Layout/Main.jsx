@@ -1,6 +1,7 @@
 import { Outlet } from 'react-router-dom';
 import Header1 from '../Components/Header/Header1';
 import Footer from '../Components/Footer/Footer';
+import WhatsAppButton from '../Components/Common/WhatsAppButton';
 
 const Main = () => {
     return (
@@ -8,6 +9,7 @@ const Main = () => {
             <Header1></Header1>
             <Outlet></Outlet>
             <Footer></Footer>
+            <WhatsAppButton />
         </div>
     );
 };

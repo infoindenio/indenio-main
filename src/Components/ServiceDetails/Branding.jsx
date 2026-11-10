@@ -9,7 +9,7 @@ const Branding = () => {
                         <div className="col-lg-12">
                             <div className="agenko-iamge-box mb-70 pf_zoomIn">
                                 <div className="agenko-image">
-                                    <img src="/assets/images/pages/service/branding.jpeg" alt="Indenio Branding Services" />
+                                    <img src="/assets/svg/banner-branding.svg" alt="Indenio Branding Services" />
                                 </div>
                             </div>
                         </div>
@@ -25,16 +25,16 @@ const Branding = () => {
                                     <div className="col-md-6">
                                         <div className="agenko-counter-item">
                                             <div className="content">
-                                                <h2><span className="count">500</span>+</h2>
-                                                <p>Brands Empowered</p>
+                                                <h2><span className="count">240</span>+</h2>
+                                                <p>Projects Delivered</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-md-6">
                                         <div className="agenko-counter-item">
                                             <div className="content">
-                                                <h2><span className="count">95</span>%</h2>
-                                                <p>Client Satisfaction</p>
+                                                <h2><span className="count">10</span>+</h2>
+                                                <p>Years of Experience</p>
                                             </div>
                                         </div>
                                     </div>

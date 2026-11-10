@@ -10,7 +10,7 @@ const Marketing = () => {
                             <div className="agenko-iamge-box mb-70 pf_zoomIn">
                                 <div className="agenko-image">
                                     <img 
-                                        src="/assets/images/pages/service/marketing.jpeg" 
+                                        src="/assets/svg/banner-marketing.svg" 
                                         alt="Indenio Marketing Services - Social Media Marketing & SEO" 
                                     />
                                 </div>
@@ -28,16 +28,16 @@ const Marketing = () => {
                                     <div className="col-md-6">
                                         <div className="agenko-counter-item">
                                             <div className="content">
-                                                <h2><span className="count">3000</span>+</h2>
-                                                <p>Campaigns Delivered</p>
+                                                <h2><span className="count">240</span>+</h2>
+                                                <p>Projects Delivered</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-md-6">
                                         <div className="agenko-counter-item">
                                             <div className="content">
-                                                <h2><span className="count">100</span>%</h2>
-                                                <p>Growth-Oriented Results</p>
+                                                <h2><span className="count">10</span>+</h2>
+                                                <p>Years of Experience</p>
                                             </div>
                                         </div>
                                     </div>

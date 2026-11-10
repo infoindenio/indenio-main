@@ -19,7 +19,7 @@ const Footer = () => {
                                             <div className="footer-logo">
                                                 <a href="/"><img src="/assets/logo-indenio.png" alt="Brand Logo" /></a>
                                             </div>
-                                            <p>Indenio creative digital agency delivering innovate web Development marketing.</p>
+                                            <p>Indenio builds custom websites and online stores, ranks them on Google and runs marketing that brings real enquiries.</p>
                                             {/* <form>
                                                 <div className="form-group">
                                                     <input type="email" className="form_control" placeholder="Email Address" name="email" required />
@@ -81,8 +81,8 @@ const Footer = () => {
                                                         </div>
                                                         <div className="content">
                                                             <h6>Email</h6>
-                                                            <p><a href="mailto:info@agenko.com" className="email-pb">info@indenio.com</a></p>
-                                                            <p><a href="mailto:admin@agenko.com">admin@indenio.com</a></p>
+                                                            <p><a href="mailto:info@indenio.com" className="email-pb">info@indenio.com</a></p>
+                                                            <p><a href="mailto:admin@indenio.com">admin@indenio.com</a></p>
                                                         </div>
                                                     </div>
                                                     <div className="agenko-iconic-box style-three">
@@ -90,8 +90,8 @@ const Footer = () => {
                                                         <i className="bi bi-telephone"></i>
                                                         </div>
                                                         <div className="content">
-                                                            <h6>Phone</h6>
-                                                            <p><a href="tel:+44 7301 701155">+44 7301 701155</a></p>
+                                                            <h6>WhatsApp / Phone</h6>
+                                                            <p><a href="https://wa.me/923454943966" target="_blank" rel="noopener noreferrer">+92 345 4943966</a></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -109,7 +109,7 @@ const Footer = () => {
                                 <div className="col-md-6">
                                    
                                     <div className="copyright-text">
-                                        <p>&copy; 2025 <span>Indenio</span> - All Rights Reserved.</p>
+                                        <p>&copy; {new Date().getFullYear()} <span>Indenio</span> - All Rights Reserved.</p>
                                     </div>
                                 </div>
                                 <div className="col-md-6">
